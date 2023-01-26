@@ -1,0 +1,34 @@
+/* 选中具有href的属性 /属性名必须以。。。为属性值*/
+[href="https://www.sina.com"]{
+    color: red;
+}
+a:link{
+    color: azure;
+}
+
+a:visited{
+    color: bisque;
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: black;
+}
+
+span::before{
+    content: "《";
+}
+
+p{
+    text-indent: 2em;
+    line-height: 2;
+}
+
+p.red{
+    color: red;
+}
+
+.red li{
+    color: green
+}
