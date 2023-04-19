@@ -52,10 +52,15 @@ e.g.导航栏
 <a href = "" 链接地址/锚点（id）/ 打电话 “tel:“/ 发邮件“mailto:“ /协议限定符 ”javascript:“></a>
 
 <form method = "get/post“ 发送数据的方式 action = ”“ 发送给谁 >
-    <input type=“text/password/submit/radio/”输入形式 value = 提交按钮里面的字 name=“”数据名 onfocus =得到焦点干什么 onblur = 失去焦点干什么>
+    username:<input type=“text/password/submit/radio/checkbox(多选)”输入形式 value = 数据值  name=“”数据名 onfocus =得到焦点干什么 if(this.value =='请输入用户名'){this.value='';} onblur = 失去焦点干什么 if(this.value ==''){this.value='请输入用户名';} checked = "checked" 默认选中>
+    <select name = "province">
+        <option>beijing</optioin>
+        <option>shanghai</option>
+    </select>
 </form>
 点submit 发送数据
 发送数据
 必须有数据名和数据值
 radio单选要有统一的name 不一样的value
+
 

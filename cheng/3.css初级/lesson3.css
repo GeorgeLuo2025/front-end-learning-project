@@ -1,0 +1,196 @@
+/* 选择器 */
+#only{
+    background-color: aliceblue;
+}
+
+.demo{
+    color: antiquewhite;
+}
+
+.example{
+    color: #000;
+}
+
+div{
+    color: aqua;
+}
+
+*{
+    background-color: black;
+}
+/* !important>行间>id>class=属性>标签 */
+[class ="demo"]{
+    color: aqua!important;
+}
+/* 父子 后辈都变选择器 */
+.wrapper span em{
+    background-color: blanchedalmond;
+}
+/* 直接子元素 */
+div > span{
+    color:aqua;
+}
+/* 并列选择器 标签在前 */
+div.demo{
+    color: blueviolet;
+}
+
+/* 分组选择器 */
+em, 
+strong, 
+span{
+    color:aqua;
+}
+/* css权重 256进制*/
+/* 同一排选择器权重相加 */
+/* !important infinity
+行间样式        1000
+id              100
+class｜属性｜伪装  10
+标签｜伪元素        1
+通配符             0 */
+
+
+/* css代码 */
+/* css字典 */
+div{
+    /* 属性名 ：属性值; */
+    /* 字体大小 */
+    font-size: 12px;
+    /* 字体粗细 */
+    font-weight: bolder;
+    /* 字型 */
+    font-style: italic;
+    /* 字体 */
+    font-family: arial;
+    /* 字体颜色 */
+    /* color: bisque; */
+    color: #aacc22;
+    /* 边框： 粗细 展示形式 颜色*/
+    /* border-wideth border-style border-color */
+    border: 1px solid black;
+    /* 宽高 */
+    width: auto;
+    height: auto;
+    /* 左边框颜色 */
+    border-left-color: red;
+    /* 对齐方式 */
+    text-align: center;
+    /* 文本航高 */
+    line-height: 12px;
+    /* 文本缩进 */
+    text-indent: 2em; /* 缩进两个字体 1em = 1 * font-size*/
+    /* 文本装饰 */
+    text-decoration: line-through; /* 下划线 */
+    /* 光标定位值 */
+    cursor: pointer;/*小手*/
+}
+/* 伪类 当鼠标移到上面 */
+a:hover{
+    text-decoration: underline;
+    background-color: #aacc22;
+    border-radius: 10px;
+    margin: left -6px;
+    /* 标签前标记 */
+    list-style: circle;
+    /* display: inline; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* 编程技巧
+先定义功能 *初始化 自定义标签*/
+
+/* 行级元素 inline*/
+/* 内容决定元素所站位置
+不可以通过css改变宽高 */
+/* eg span strong em a del*/
+
+/* 块级元素 inblock*/
+/* 独占一行
+    可以用css改变宽高 */
+/* eg div p ul liol form address*/
+
+/* 行级块元素 inline-block 有文本特性中间会有空格*/
+/* 内容决定大小
+可以改宽高 */
+/* eg img */
+
+
+
+/* 单行文本垂直居中 
+line-height = height*/
+/* px 像素 相对的 */
+
+/* 盒子模型 */
+/* 盒子三大部分
+    盒子壁 border   
+    内边距 padding 不能有内容
+    盒子内容 width+height
+    外边距 margin
+
+*/
+
+ /* 控制台
+ inspect
+ */
+
+ /* 盒子居中 */
+ /* 两个盒子嵌套 大小一样 外面加padding */
+ .wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: #aacc22;
+    padding: /*上*/100px /*左右*/150px /*下*/200px;
+ }
+
+ .content{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+ }
+
+ /* 定位 */
+ /* 绝对  */
+ /* 1.脱离原来位置进行定位
+ 最近的有定位的父级进行定位，如果没有那么相对于文档定位 */
+ div{
+    position: absolute;/*成为一层*/
+    left: 100px;
+    top: 100px;
+ }
+
+ /* 相对 */
+ /* 1. 保留原来位置进行定位 
+ 相对自己原来的位置进行定位*/
+ div{
+    position: relative;/*成为一层但保留原来位置*/
+ }
+
+ /* 用relative当参照物 absolute定位 */
+/* fixed */
+/* 滚动条动它也不动 */
+
+/* 居中 */
+div{
+    left: 50%;
+    top: 50%;
+    margin-left: -10;
+    margin-top: -10;
+}
+
+/* z-index */
+/* 第几层 层数越高越向上 */
+
+/* 做圆 */
+div{
+    border-radius: 50%;
+}
+
+ /* body margin = 8px */
+
+
+
