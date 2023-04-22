@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.wrapper{
+    margin-left: 100px;
+    margin-top: 100px;
+    width:100px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.content{
+    margin-left:50px;
+    margin-top:150px;
+    width:50px;
+    height:50px;
+    background-color:blanchedalmond;
+}
+
+/* bfc block format context */
+/* position:absolute;
+display: inline-block;
+float:left/right;
+overflow：hidde; */

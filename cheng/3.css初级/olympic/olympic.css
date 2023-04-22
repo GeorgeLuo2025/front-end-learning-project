@@ -1,0 +1,67 @@
+/* .logo{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width:80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+} */
+
+*{
+    margin: 0;
+    padding:0;
+}
+.circle{
+    width:80px;
+    height: 80px;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+.c1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -132px;
+    margin-top: -40px;
+    border-color: blue;
+
+}
+
+.c2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -86px;
+    border-color: yellow;
+
+}
+
+.c3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    border-color: black;
+}
+
+.c4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 6px;
+    margin-top: 0px;
+    border-color: green;
+}
+
+.c5{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 52px;
+    margin-top: -40px;
+    border-color: red;
+}
+

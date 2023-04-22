@@ -170,7 +170,7 @@ line-height = height*/
     position: relative;/*成为一层但保留原来位置*/
  }
 
- /* 用relative当参照物 absolute定位 */
+ /* 用relative当参照物 absolute定位(相对于父级*/
 /* fixed */
 /* 滚动条动它也不动 */
 
