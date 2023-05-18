@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .wrapper{
+    height: 300px;
+    width: 300px;
+    border:1px solid black ;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: red;
+    float: left;
+} */
+.wrapper::after{
+    content: "";
+    clear: both;
+    display: block;
+    /* clear 必须用在块儿级元素里 */
+}
+/* 或者 */
+.wrapper{
+    float: left;
+    /* 改成能看到浮动流的 */
+    border: 2px solid red;
+}
+/* position：absolute 和float 自动把子集和内部设为inline-block */
+span::before{
+    content: "我";
+    /* 是行级元素 文本 没有宽高 */
+}
+span::after{
+    content:"确实";
+}
+.box{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.demo{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+p{
+    border-top: 0 solid green;
+    clear: both;
+    /* 清除周围的浮动流 */
+}

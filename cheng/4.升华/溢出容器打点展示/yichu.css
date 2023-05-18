@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.single{
+    width: 80px;
+    border: 2px solid black;
+    height: 60px;
+    /* 单行文本三件套 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.multi{
+    width: 80px;
+    border: 2px solid black;
+    height: 60px;
+    /* 算好line-height 加 overflow：hidden */
+    line-height: 20px;
+    /* white-space: ; */
+    overflow: hidden;
+}
+

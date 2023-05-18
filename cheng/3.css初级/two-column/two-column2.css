@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    opacity: 0.4;
+}
+
+.left{
+    margin-right: 100px;
+    height: 100px;
+    background-color: rgb(173, 173, 17);
+}
