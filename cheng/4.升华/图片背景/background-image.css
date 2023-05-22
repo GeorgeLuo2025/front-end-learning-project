@@ -9,10 +9,32 @@ div{
     border: 1px solid black;
     /* 背景图片 */
     background-image: url(../../../image.png) ;
-    background-size: 100px 100px;
+    background-size: 300px 300px;
     background-repeat: no-repeat;
-    background-position: 100px 100px;
+    /* background-position: 100px 100px; */
+    
 }
 
+a{
+    
+    /* 或者这样 */
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 190px;
+    height: 90px;
+    border: 1px solid red;
+    background-image: url(../../../image.png) ;
+    background-size: 190px 90px;
+    /* 加载不出来的时候显示文字 */
+    text-indent: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* 或者 */
+    /* height: 0;
+    padding-top: 90px;
+    overflow: hidden; */
+
+}
 
 

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 30px;
+    background-color: #123;
+}
+
+.content{
+    margin: auto;
+    width: 1200px;
+    height: 30px;
+    background-color: #02f;
+
+}
+
+/* display inline-block inline 有文本属性 */
+/* position：absolute 和float会自动display：inline-block */
+/* vertical-align：middle */
