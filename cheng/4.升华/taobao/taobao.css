@@ -173,13 +173,28 @@ li
     color: #f5f5f5;
 }
 
+.top .last::after{
+    clear: both;
+}
+
 .searchbar{
     width: 560px;
 }
 
-.searchbar::before{
+/*  */
+.searchbar input[type="text"]::before{
     content: "";
-    
+    display: block;
+    width:12px;
+    height:12px;
+    background-image: url(./image.png);
+    border: 0px solid black;
+    vertical-align: -2px;
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-left: 2px;
+    /* float: left; */
+
 }
 
 .searchbar input[type="text"] {
@@ -223,6 +238,21 @@ li
 }
 
 .bottom .gd{
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+
+/*  */
+.bottom .gd::after{
+    content: "";
+    /* display: block; */
+    width:100px;
+    height:100px;
+    background-image: url(./image.png);
+    border: 1px solid black;
+    vertical-align: -2px;
+    background-size: 100% 100%;
+    margin-right: 5px;
+    margin-left: 2px;
+}
