@@ -158,6 +158,7 @@ li
     border: 1px solid red;
     margin: 20px 60px;
     width: 576px;
+    float: left;
 }
 
 .top li{
@@ -240,19 +241,112 @@ li
 .bottom .gd{
     padding-left: 20px;
     padding-right: 20px;
+    /* margin-right: 20px; */
 }
 
 
 /*  */
 .bottom .gd::after{
     content: "";
-    /* display: block; */
-    width:100px;
-    height:100px;
+    display: inline-block;
+    margin-left: 10px;
+    width:12px;
+    height:12px;
     background-image: url(./image.png);
-    border: 1px solid black;
-    vertical-align: -2px;
+    /* border: 1px solid black; */
+    /* vertical-align: 2px; */
     background-size: 100% 100%;
     margin-right: 5px;
-    margin-left: 2px;
+    margin-left: 2px;  
+    float:right;
+}
+
+.wrapper3{
+    margin: 20px 0px;
+    /* border: 1px solid black; */
+    width: 144px;
+    height: 124px;
+    display: inline-block;
+}
+.wrapper3 .close{
+    /* display: block; */
+    /* float: left; */
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.wrapper3-1{
+    padding: 10px 10px;
+    border: 1px solid black;
+    float: right;
+    /* margin-top: -20px; */
+    /* width: 120; */
+}
+.wrapper3-1 p{
+    border: 1px solid black;
+    margin-top: -20px;
+    margin-left: 24px;
+    font-size: 12px;
+    color: #f40;
+    clear: both;
+}
+
+.wrapper3-1 img{
+    display: block;
+    width: 100px;
+    height: 100px;
+
+}
+
+.mark-cat{
+    background-color: #f40;
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+.mark-cat p{
+    color: #f5f5f5;
+    font-size: 14px;
+}
+
+.rows{
+    margin: 2px 6px 0px 0px;
+    float: right;
+    width: 16px;
+    height: 16px;
+}
+
+.cats li{
+    padding-top: 3px;
+    padding-bottom: 4px;
+    background-color: #f40;
+    width: 144px;
+}
+
+.cats li a{
+    color: #f5f5f5;
+}
+
+.cats li img{
+    width: 14px;
+    height: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.wrapper4{
+    /* float: left; */
+    margin-right: 100px;
+    margin-top: -40px;
+}
+
+.wrapper5{
+    /* position: relative; */
+    /* height: 800px; */
+    width: 1000px;
+    margin-left: 100px;
+    border: 1px solid #f40 ;
 }
