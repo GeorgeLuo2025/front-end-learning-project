@@ -423,6 +423,12 @@ a{
     margin-top: -46px;
     border: 2px solid black;
 }
+.content{
+    /* display: inline-block; */
+    float: left;
+    width: 720px;
+    border: 1px solid black;
+}
 .con1{
     width: 500px;
     display: inline-block;
@@ -486,4 +492,159 @@ a{
 .con4{
     width: 200px;
     height: 190px;
+}
+
+.pic{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.charge{
+    margin-left: 76px;
+    margin-top: 20px;
+}
+
+.charge p,
+.charge a{
+    font-size: 14px;
+    
+}
+.qu{
+    color: #6c6c6c;
+}
+.vip{
+    color: #f40;
+}
+
+.dec{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: -2px;
+}
+.profile{
+    display: inline-block;
+    border: 1px solid red;
+    width: 260px;
+    height: 600px;
+    /* margin-top: -1000px; */
+}
+
+.register{
+    width: 213px;
+    margin:auto;
+    border: 1px solid #ff4400;
+}
+.register li{
+    display: inline-block;
+}
+.register li a{
+    background-color: #f40;
+    color: #f5f5f5;
+    padding: 0px 10px;
+    padding-left: 16px;
+    display: inline-block;
+    width: 40px;
+    border: 1px solid #f40;
+}
+
+.line{
+    width: 250px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #f5f5f5;
+    height: 0px;
+}
+
+.choice{
+    /* border: 1px solid black; */
+    margin:auto;
+    margin-bottom: 5px;
+    width: 258px;
+    margin-left: 8px;
+}
+
+.choice li{
+    /* border: 1px solid black; */
+    /* padding: 5px 0px;*/
+
+    padding-left: 2px;
+    padding-right: 2px; 
+    display: inline-block;
+}
+
+.choice li p{
+    color: #6c6c6c;
+    padding: 5px 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid white;
+    /* border: 1px solid black; */
+}
+
+.choice li p:hover{
+    color: black;
+    border-bottom: 2px solid #f40;
+}
+
+.news1,
+.news2{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+.news1{
+    color: #f40;
+}
+
+
+
+.news2{
+    color:#6c6c6c;
+    margin-bottom: 15px;
+}
+
+.service{
+    width: 258px;
+    
+}
+
+.service li{
+    border: 1px solid #f5f5f5;
+    height: 70px;
+    display: inline-block;
+    width: 62.5px;
+    
+}
+
+.service li img{
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    height: 30px;
+    width: 30px;
+}
+
+.service li a{
+    font-size: 14px;
+    color: #6c6c6c;
+    margin: auto;
+    display: block;
+    /* border: 1px solid black; */
+    padding-left: 16px;
+    margin-top: 5px;
+}
+
+.service li a:hover{
+    color: #f40;
+}
+
+.service .fst{
+    width: 63px;
 }

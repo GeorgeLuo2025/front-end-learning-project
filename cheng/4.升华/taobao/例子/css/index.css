@@ -1,0 +1,10 @@
+/* 
+    @规则
+        @charset 设置样式表
+        @import 导入其它样式文件
+        @media 媒体查询
+        @font-face 自定义字体
+        
+*/
+
+@import './reset.css'
