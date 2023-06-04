@@ -66,9 +66,18 @@ body{
     color: #f50;
 }
 
+.mr5{
+    margin-right: 5px;
+}
+
+.mr7{
+    margin-right: 7px;
+}
+
 .mt10{
     margin-top: 10px;
 }
+
 
 .mr10{
     margin-right: 10px;
