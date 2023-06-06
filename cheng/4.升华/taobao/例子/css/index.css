@@ -417,7 +417,8 @@
     line-height: 32px;
     padding-left: 25px;
     transition: background-color 0.3s;
-    color: #999;
+    font-size: 14px;
+    color: #666;
 }
 
 .firstLeft .sideNav li:hover{
@@ -457,9 +458,28 @@
     /* height: 282px; */
 }
 
-.firstLeft .pic img{
+.firstLeft .imgbox1 .pic img{
     width: 100%;
     height: 282px;
+}
+
+.firstLeft .imgbox2 .pic .img{
+    height: 200px;
+    width: 520px;
+    background-color: #fff;
+    position: relative;
+    /* display: table-cell;
+    vertical-align: middle; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstLeft .imgbox2 .pic img{
+    height: 200px;
+    width: 258px;
+    background-color: #fff;
+    position: relative;
 }
 
 .firstLeft .pic button{
@@ -470,6 +490,9 @@
     cursor: pointer;
     border: none;
     background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: #000\9;IE9以下认识 */
+    /* filter：alpha（opacity=30） */
+
     text-indent: center;
     position: absolute;
     top: 50%;
@@ -528,13 +551,49 @@
 }
 
 /* 图片容器2 */
-.imgbox2{
+.firstLeft .imgbox2{
     width: 690px;
-    height: 230px;
-    background-color: #ccc;
+    height: 220px;
+    /* background-color: #ccc; */
     margin-top: 10px;
 }
 
+.firstLeft .imgbox2 .picTitle{
+    height: 20px;
+    /* border: 2px solid blue; */
+}
+.firstLeft .imgbox2 .picTitle .text{
+    /* border: 2px solid red; */
+    height: 17px;
+    line-height: 17px;
+}
+
+.firstLeft .imgbox2 .picTitle .text .bg{
+    background: url(../image/image.png) no-repeat left;
+    /* background: black; */
+    /* height: 17px; */
+    background-size: 80px 17px;
+    padding-left: 136px;
+    /* border: 2px solid black; */
+    color: #666;
+}
+
+.firstLeft .imgbox2 .picTitle .text i{
+    color: #ff1648;
+}
+
+.firstLeft .imgbox2 .picTitle .line{
+    height: 3px;
+    background-color: #ff1648;
+    position: relative;
+}
+.firstLeft .imgbox2 .picTitle .line span{
+    width: 87px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+}
 /* 淘宝头条 */
 .news{
     width: 890px;
