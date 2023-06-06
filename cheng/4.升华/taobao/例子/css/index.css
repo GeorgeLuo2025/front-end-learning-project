@@ -383,6 +383,7 @@
 }
 #nav .line{
     margin: 0px;
+    padding: 0 5px;
 }
 #nav ul li a:hover:after{
     content: "";
@@ -391,7 +392,162 @@
     height: 13px;
     background-image:url(../image/background1.png) ;
     top: -13px;
-    left: 50%;
+    left: 50%; 
     margin-left: -12px;
     z-index: 0;
+}
+
+/* 首屏内容 */
+.firstLeft{
+    width: 890px;
+}
+/* 侧边导航 */
+.firstLeft .sideNav{
+    width: 190px;
+    height: 522px;
+    background-color: #fff;
+    border: 1px solid #ff5000;
+    box-sizing: border-box;
+    border-top: none;
+    padding-top: 5px;
+}
+
+.firstLeft .sideNav li{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    transition: background-color 0.3s;
+    color: #999;
+}
+
+.firstLeft .sideNav li:hover{
+    background-color: #ffe4dc;
+    color: #f50;
+}
+.firstLeft .sideNav li:hover a{
+    color: #f50;
+}
+
+.firstLeft .sideNav li a:hover{
+    text-decoration: underline;
+}
+
+.firstLeft .sideNav li a{
+    font-size: 14px;
+}
+
+.firstLeft .sideNav li span{
+    font-size: 12px;
+    margin-right: 5px;
+    
+}
+
+/* 图片容器1 */
+.firstLeft .imgbox1{
+    width: 690px;
+    height: 282px;
+    background-color: #eee;
+    margin-top: 10px;
+    
+}
+
+.firstLeft .pic{
+    position: relative;
+    width: 520px;
+    /* height: 282px; */
+}
+
+.firstLeft .pic img{
+    width: 100%;
+    height: 282px;
+}
+
+.firstLeft .pic button{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-indent: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+
+    display: none;
+}
+
+.firstLeft .pic button.leftButton{
+    left: 0;
+    border-radius: 0 15px 15px 0;
+    
+}
+.firstLeft .pic button.rightButton{
+    right: 0;
+    border-radius: 15px 0 0 15px;
+}
+.firstLeft .pic:hover button{
+    display: block;
+}
+
+.firstLeft .pic .circles{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    font-size: 0;
+    padding: 3px 0;
+    left: 50%;
+    margin-left: -35px;
+
+}
+
+.firstLeft .pic .circles span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.firstLeft .pic .circles span.active{
+    background-color: #ff5000;
+}
+
+.firstLeft .ad{
+    width: 160px;
+}
+
+.firstLeft .ad img{
+    width: 160px;
+    height: 282px;
+}
+
+/* 图片容器2 */
+.imgbox2{
+    width: 690px;
+    height: 230px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+/* 淘宝头条 */
+.news{
+    width: 890px;
+    height: 100px;
+    background-color: #999;
+}
+/* 右边导航 */
+.firstRight{
+    width: 290px;
+    height: 621px;
+    background: #9c9c9c;
+}
+
+.sideNav{
+    background-color: #fff;
 }
