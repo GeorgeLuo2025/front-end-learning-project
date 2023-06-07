@@ -595,16 +595,122 @@
     left: 0;
 }
 /* 淘宝头条 */
-.news{
+.firstLeft .news{
     width: 890px;
     height: 100px;
-    background-color: #999;
+    background-color: #fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 13px 13px 13px 20px;
+}
+
+.firstLeft .news .hd{
+    margin-top: 15px;
+}
+
+.firstLeft .news .hd h3{
+    width: 129px;
+   height: 26px;
+   background: url(../image/background1.png) no-repeat;
+   text-indent: -9999px;
+   overflow: hidden;
+}
+
+.firstLeft .news .hd p{
+    color: #999;
+    line-height: 24px;
+}
+
+.firstLeft .news .newList{
+    width: 680px;
+    position: relative;
+}
+
+.firstLeft .news .newList .img{
+    margin-right: 15px;
+}
+
+.firstLeft .news .newList .img img{
+    width: 130px;
+    height: 73px;
+}
+
+.firstLeft .news .newList h4{
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.firstLeft .news .newList h4 a{
+    color: #333;
+}
+
+.firstLeft .news .newList p{
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.firstLeft .news .newList p a{
+    color: #999;
+}
+
+.firstLeft .news .newList h4 a:hover, .firstLeft .news .newList .more:hover{
+    color: #ff5000;
+}
+
+.firstLeft .news .newList .more{
+    position: absolute;
+    top:0;
+    right: 0;
+    color: #999;
 }
 /* 右边导航 */
 .firstRight{
     width: 290px;
-    height: 621px;
+    /* height: 621px; */
     background: #9c9c9c;
+    margin-top: 10px;
+
+}
+/* 用户 */
+.firstRight .user{
+    height: 140px;
+    padding-top: 5px;
+    background-image: url(../image/background1.png);
+}
+
+.firstRight .user .avatar{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.firstRight .user .avatar img{
+    width: 50px;
+    height: 50px;
+}
+
+.firstRight .user .username{
+    text-align: center;
+    line-height: 16px;
+}
+
+.firstRight .user .members{
+    text-align: center;
+    font-size: 0px;
+}
+
+.firstRight .user .members a{
+    /* display: inline-block; */
+    font-size: 12px;
+    border-radius: 9px;
+    background-color: #ffe4dc;
+    padding: 0px 10px 0 20px;
+    margin:0 2px;
 }
 
 .sideNav{
