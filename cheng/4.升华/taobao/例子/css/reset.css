@@ -82,3 +82,12 @@ body{
 .mr10{
     margin-right: 10px;
 }
+
+/* 表哥 */
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 0;
+}
